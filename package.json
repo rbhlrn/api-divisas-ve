@@ -1,0 +1,22 @@
+{
+  "name": "api-divisas-ve",
+  "description": "API divisas Venezuela (BCV)",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "main": "src/index.js",
+  "author": "Russellbladimir@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1"
+  },
+  "private": true
+}
