@@ -46,7 +46,7 @@ const evalCurrencyObject = val => {
       } : '';
     return objectSize(currency) === 5 ? { error: false, data: currency } : { error: true, message: 'Error getting data'};
   }else{
-    return { error: true, message: 'Error getting data'};
+    return { error: true, message: 'Connection error with BCV'};
   }
 };
 
